@@ -1,5 +1,7 @@
 # TapMixerBar
 
+**🌐 Website:** [turhe123.github.io/tap-mixer-bar](https://turhe123.github.io/tap-mixer-bar/)
+
 A menu bar mixer with one volume slider per app playing sound, no virtual audio driver needed.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -31,7 +33,13 @@ macOS still has no per-app volume control. Paid utilities in the *Audio* categor
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu-bar-popover.png" alt="TapMixerBar menu bar popover with permission explanation card" width="720"></p>
+
+<p align="center"><em>The TapMixerBar menu bar popover on first launch, explaining the one System Audio Recording permission it needs before it can adjust per-app volume.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="TapMixerBar Settings window" width="560"></p>
+
+<p align="center"><em>Settings for launch at login, showing silent apps, the maximum volume boost (up to 150%) and the optional ⌃⌥⌘M solo hotkey.</em></p>
 
 ## Install
 

@@ -1,0 +1,60 @@
+{
+  "seo_title": "Per-app volume mixer for macOS",
+  "seo_description": "TapMixerBar is a free, open-source menu bar mixer for macOS. Set volume per app from 0 to 150% with no virtual audio driver or kernel extension.",
+  "hero_title_line1": "Every app,",
+  "hero_title_accent": "its own volume.",
+  "hero_sub": "A menu bar mixer that gives each app playing sound its own slider, from 0 to 150%, with no virtual audio driver. Click the menu bar icon to mix, or use the optional ⌃⌥⌘M hotkey to solo the frontmost app.",
+  "features_title": "Small mixer, real control.",
+  "features_sub": "Built on Apple's own Core Audio process taps, so there is nothing extra to install in your audio system.",
+  "features": [
+    {
+      "icon": "sliders",
+      "title": "One slider per app",
+      "desc": "Each app making sound gets a row with its icon, name, volume slider, percent label and mute button. Browser helper processes are grouped under the parent app."
+    },
+    {
+      "icon": "speaker",
+      "title": "Boost up to 150%",
+      "desc": "Raise quiet apps past full volume, and cap the boost at 100%, 125% or 150% in Settings. A soft clipper keeps boosted peaks from hard-clipping."
+    },
+    {
+      "icon": "bolt",
+      "title": "Levels you only set once",
+      "desc": "Volume and mute are remembered by bundle identifier and re-applied the next time the app plays. Reset All clears everything in one click."
+    },
+    {
+      "icon": "keyboard",
+      "title": "Solo hotkey",
+      "desc": "Press ⌃⌥⌘M to mute every app except the frontmost one, and press it again to restore the previous state. It is off until you enable it in Settings."
+    },
+    {
+      "icon": "cpu",
+      "title": "No driver, no wasted work",
+      "desc": "No kernel extension or virtual audio device is installed. An app left at 100% and unmuted gets no tap, so it adds no latency."
+    },
+    {
+      "icon": "window",
+      "title": "Lives in the menu bar",
+      "desc": "It runs without a Dock icon and can launch at login. The menu bar icon becomes a slashed speaker while any app is muted, and taps follow your output device when it changes."
+    }
+  ],
+  "permissions_step": "On first use, grant System Audio Recording when macOS asks (System Settings > Privacy & Security); Accessibility is needed only if you turn on the solo hotkey.",
+  "faq": [
+    {
+      "q": "Is TapMixerBar really free and open source?",
+      "a": "Yes. It is released under the MIT license and the full source is on GitHub. It has no server, no account and no network access, and it will stay free; donations through Ko-fi are optional."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "System Audio Recording, requested the first time a tap is created, after an in-app explanation. Audio is processed live and is never recorded or sent anywhere. Accessibility is requested only if you enable the solo hotkey, and it does not ask for Screen Recording or Microphone access."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Your per-app volume and mute levels and your settings are kept locally in macOS UserDefaults on your Mac, keyed by app bundle identifier. Nothing leaves your machine."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to launch it, or build it from source with Xcode. Per-app volume needs macOS 14.2 or later."
+    }
+  ]
+}

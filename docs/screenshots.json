@@ -1,0 +1,4 @@
+[
+  {"file":"01-menu-bar-popover.png","caption":"The TapMixerBar menu bar popover on first launch, explaining the one System Audio Recording permission it needs before it can adjust per-app volume.","alt":"TapMixerBar menu bar popover with permission explanation card"},
+  {"file":"02-settings.png","caption":"Settings for launch at login, showing silent apps, the maximum volume boost (up to 150%) and the optional ⌃⌥⌘M solo hotkey.","alt":"TapMixerBar Settings window"}
+]
